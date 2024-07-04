@@ -1,0 +1,105 @@
+/* Reset CSS */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5ff;
+  color: #040404;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styling */
+header {
+  background-color: #7096ef;
+  color: #fff5ff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation menu styling */
+nav ul {
+  background-color: #5383e3;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff5ff;
+  text-transform: uppercase;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  flex: 1;
+}
+
+/* Left Sidebar styling */
+.left-sidebar {
+  background-color: #fff5ff;
+  width: 20%;
+  padding: 20px;
+}
+
+.left-sidebar ul {
+  list-style: none;
+}
+
+.left-sidebar ul li a {
+  color: #200d20;
+  display: block;
+  padding: 5px 0;
+  border-bottom: 1px solid #000000;
+}
+
+/* Content area styling */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content article {
+  background-color: #fff5ff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(244, 238, 238, 0.844);
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Right Sidebar styling */
+.right-sidebar {
+  background-color: #fff5ff;
+  width: 20%;
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #7096ef;
+  color: #fff5ff;
+  text-align: center;
+  padding: 10px 0;
+}
